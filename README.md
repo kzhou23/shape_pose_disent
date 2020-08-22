@@ -13,6 +13,8 @@ Link to project: https://virtualhumans.mpi-inf.mpg.de/unsup_shape_pose/
 5. MPI mesh library (https://github.com/MPI-IS/mesh)
 6. OpenDR (https://github.com/mattloper/opendr)
 
+For spiral convolution we use code from [Neural3DMM](https://github.com/gbouritsas/Neural3DMM) repo and modify it according to our needs. 
+
 ## Data Preprocessing
 1. Download and uncompress AMASS Dataset (https://amass.is.tue.mpg.de/)
 2. Download SMPL+H body models (https://mano.is.tue.mpg.de/)
