@@ -2,6 +2,7 @@
 Repo for **"Unsupervised Shape and Pose Disentanglement for 3D Meshes, ECCV'20 (Poster)"**
 
 Link to paper: https://arxiv.org/abs/2007.11341
+
 Link to project: https://virtualhumans.mpi-inf.mpg.de/unsup_shape_pose/
 
 ## Prerequisites
