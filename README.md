@@ -25,7 +25,7 @@ For spiral convolution we use code from [Neural3DMM](https://github.com/gbourits
 2. Run `python train.py`
 
 ## Pretrained Models
-Coming soon.
+You can download pretrained model for AMASS at https://drive.google.com/file/d/1Uge1PKQoL1xy8UH4iLXGz9k-div8aEgu/view?usp=sharing
 
 Please consider citing our work if you found it useful:
 ```
