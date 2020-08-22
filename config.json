@@ -1,0 +1,42 @@
+{
+    "train": {
+        "resume": false,
+        "resume_epoch": 1,
+        "deterministic": true,
+        "device": [0],
+        "epochs": 200,
+        "vis_step": 1,
+        "log_step": 1,
+        "save_step": 1
+    },
+    "path": {
+        "processed_data": "./amass/processed",
+        "body_models": "./amass/body_models/smplh",
+        "sampling_matrices": "./amass/sampling",
+        "checkpoints": "./saved/checkpoints",
+        "visualization": "./saved/visualization"
+    },
+    "model": {
+        "shape_enc_filters": [3, 4, 8, 16, 32],
+        "pose_enc_filters": [3, 12, 24, 48, 96],
+        "dec_filters": [128, 64, 32, 16, 3],
+        "conv_hops": [2, 2, 1, 1],
+        "dilation": [1, 1, 1, 1],
+        "scale_factors": [4, 4, 4, 4],
+        "shape_dim": 16,
+        "pose_dim": 112,
+        "activation": "lrelu"
+    },
+    "dataloader": {
+        "batch_size": 64,
+        "num_workers": 32,
+        "bm_type": "smplh"
+    },
+    "optimizer": {
+        "type": "Adam",
+        "args":{
+            "lr": 1e-3,
+            "weight_decay": 0
+        }
+    }
+}
